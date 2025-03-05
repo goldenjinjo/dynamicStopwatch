@@ -22,7 +22,7 @@ class DynamicLapTimer(tk.Tk):
         
         # GUI Setup
         self.title("Dynamic Lap Timer")
-        self.geometry("700x600")
+        self.geometry(f"{WINDOW_WIDTH}x{WINDOW_HEIGHT}")
         self.resizable(True, True)
         
         # Main frame (center content)
